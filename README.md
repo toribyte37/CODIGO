@@ -30,5 +30,18 @@ git status
 ```
 
 
+```bash
+git add
 
+```
+
+```bash
+git commit -m "comentario"
+
+```
+* []Git log  retorna un `id` con este id  vamos 
+```bash
+git log
+
+```
 
