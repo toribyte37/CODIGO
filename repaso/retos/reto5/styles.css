@@ -1,0 +1,40 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  body{  font-family: 'Outfit', sans-serif;
+    background-color:red;
+  }
+  .grid-container  {
+    background-color: aliceblue;
+    height: 100vh;
+  
+    max-width: 600px;
+    padding: 20px;
+  }
+  .header{
+    display: grid;
+    grid-template-columns:1fr 1fr;
+     align-items: center; 
+   
+    
+  }
+  .header a{
+    justify-self: end;
+  }
+  .header .bagde{
+    background-color:hsl(219, 85%, 26%) ;
+
+  }
+  
+  @media(min-width:600px){
+    h1{
+      font-size: 2em;
+    }
+    .grid-container{
+      margin: 40px auto;
+      border-radius: 20px;
+      padding: 30px;
+    }
+  }
